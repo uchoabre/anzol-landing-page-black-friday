@@ -190,7 +190,8 @@
 }
 
 .content .products .card-product h4,
-.content .products .card-product p {
+.content .products .card-product p,
+.content .products .card-product span {
   word-wrap: break-word;
   margin-left: 0.6rem;
 }
@@ -205,10 +206,26 @@
   font-size: 3rem;
 }
 
-.content .products .card-product span {
+.content .products .card-product p:nth-child(4) {
+  margin-bottom: 1rem;
+}
+
+.content .products .card-product p > span {
+  font-size: 3rem;
+  background: none;
   color: var(--red);
 
   margin-left: 2rem;
+  margin-top: 0;
+}
+
+.content .products .card-product span {
+  background: var(--red);
+
+  font-size: 2rem;
+  color: var(--white);
+
+  border-radius: 0.4rem;
 }
 
 .third-section {
