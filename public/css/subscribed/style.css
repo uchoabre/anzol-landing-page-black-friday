@@ -1,0 +1,87 @@
+#first-section {
+  display: flex;
+}
+
+.content .first-content {
+  width: 50vw;
+
+  padding: auto;
+
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content .first-content img {
+  width: 40rem;
+
+  overflow: hidden;
+}
+
+.content .first-content h1 {
+  font-size: 4rem;
+  color: var(--primary-color);
+
+  text-shadow: var(--black) 0.4rem 0.4rem 0;
+
+  margin-top: -3.6rem;
+}
+
+.content .second-content {
+  text-align: center;
+
+  margin: 10rem auto 0;
+  padding: 0 0.2rem;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content .subscribe {
+  width: 80%;
+  height: 70%;
+
+  background: var(--dark-purple) url(../../assets/logo-white.png) repeat;
+  background-size: 2.6rem;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+
+  margin: 0 auto;
+  padding: 5% 1rem;
+
+  border: 0.16rem solid var(--black);
+  border-radius: 1.4rem;
+
+  overflow: hidden;
+}
+
+.content .subscribe > h2 {
+  width: 90%;
+
+  background: var(--dark-purple);
+
+  line-height: 1.4;
+  font-size: 200%;
+  font-family: "Permanent Marker", sans-serif;
+
+  margin: auto;
+
+  border: 0.2rem solid var(--black);
+  border-radius: 1rem;
+
+  text-shadow: var(--black) 0.2rem 0.2rem 0rem;
+}
+
+.content .subscribe > h2 > a > img {
+  width: 4rem;
+
+  margin: 1rem;
+}

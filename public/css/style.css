@@ -1,0 +1,236 @@
+#first-section {
+  display: flex;
+}
+
+.content .first-content {
+  width: 50vw;
+
+  padding: auto;
+
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content .first-content img {
+  width: 40rem;
+
+  overflow: hidden;
+}
+
+.content .first-content h1 {
+  font-size: 4rem;
+  color: var(--primary-color);
+
+  text-shadow: var(--black) 0.4rem 0.4rem 0;
+
+  margin-top: -3.6rem;
+}
+
+.content .second-content {
+  text-align: center;
+
+  margin: 10rem auto 0;
+  padding: 0 0.2rem;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content .second-content > p {
+  font-size: 2.6rem;
+
+  font-family: "Permanent Marker", sans-serif;
+
+  text-shadow: var(--black) 0.3rem 0.3rem 0;
+}
+
+.content .subscribe {
+  width: 80%;
+  height: 70%;
+
+  background: var(--dark-purple) url(../assets/logo-white.png) repeat;
+  background-size: 2.6rem;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+
+  margin: 0 auto;
+  padding: 5% 1rem;
+
+  border: 0.16rem solid var(--black);
+  border-radius: 1.4rem;
+
+  overflow: hidden;
+}
+
+.content .subscribe > h2 {
+  width: 90%;
+
+  background: var(--dark-purple);
+
+  line-height: 1.4;
+  font-size: 200%;
+  font-family: "Permanent Marker", sans-serif;
+
+  margin-bottom: 0.4rem;
+
+  border: 0.2rem solid var(--black);
+  border-radius: 10rem;
+
+  text-shadow: var(--black) 0.2rem 0.2rem 0rem;
+}
+
+.content .subscribe form {
+  width: 90%;
+  height: 70%;
+
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content .subscribe form .data {
+  width: 100%;
+  height: 4rem;
+
+  background: var(--black);
+
+  color: var(--light-purple);
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  margin-bottom: 4%;
+
+  text-align: center;
+
+  border: 0.2rem solid var(--light-purple);
+  border-radius: 1.6rem;
+}
+
+.content .subscribe form .data::placeholder {
+  color: var(--light-purple);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.content .subscribe form .sub {
+  width: 50%;
+  height: 4rem;
+
+  background: var(--green);
+
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  border: 0.1rem solid var(--white);
+  border-radius: 1.6rem;
+}
+
+.content .subscribe form .sub:hover {
+  box-shadow: var(--white) 0 0 1rem 0rem;
+  transition: 200ms;
+}
+
+#second-section {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+#second-section h1 {
+  font-size: 3rem;
+  font-family: "Permanent Marker", sans-serif;
+
+  margin: 2rem 0 4rem;
+
+  text-shadow: var(--black) 0.3rem 0.3rem 0;
+}
+
+.content .products {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content .products .card-product {
+  height: 102%;
+
+  color: var(--primary-color);
+
+  background: var(--white);
+
+  border-radius: 1.6rem;
+}
+
+.content .products .card-product img {
+  width: 30rem;
+  height: 30rem;
+
+  object-fit: cover;
+
+  border-radius: 1.6rem 1.6rem 0 0;
+}
+
+.content .products .card-product h4 {
+  width: 100%;
+  font-size: 1rem;
+}
+
+.content .products .card-product h4,
+.content .products .card-product p {
+  word-wrap: break-word;
+  margin-left: 0.6rem;
+}
+
+.content .products .card-product .previous-price {
+  color: var(--light-purple);
+  font-size: 1.4rem;
+  text-decoration: line-through;
+}
+
+.content .products .card-product p {
+  font-size: 3rem;
+}
+
+.content .products .card-product span {
+  color: var(--red);
+
+  margin-left: 2rem;
+}
+
+.third-section {
+  display: flex;
+}
+
+.third-section > img {
+  width: 50%;
+
+  object-fit: cover;
+
+  border-top: 0.3rem solid var(--light-purple);
+  border-right: 0.3rem solid var(--light-purple);
+  border-bottom: 0.3rem solid var(--light-purple);
+  border-radius: 0 2rem 2rem 0;
+}
+
+.third-section .last-content {
+  width: 100%;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
